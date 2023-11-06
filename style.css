@@ -3,9 +3,17 @@ body {
     font-family: Poppins;
 }
 
+@font-face {
+    font-family: "BrandonText";
+    src: url("fonts/BrandonText-Regular.otf") format("opentype");
+
+}
+
 .titlebanner {
+    font-family: "BrandonText";
     color: #ffffff;
-    font-weight: 500;
+    font-weight: bold;
+    letter-spacing: 2px;
     justify-content: center;
     text-align: center;
     padding: 150px;
@@ -37,7 +45,9 @@ body {
 }
 
 #n1stick {
-    font-weight: 500;
+    font-family: "BrandonText";
+    letter-spacing: 2px;
+    font-weight: 600;
     background-color:#be6c3c;
     justify-content: center;
     text-align: center;;
@@ -47,18 +57,25 @@ body {
 }
 
 .title1 {
-    margin-top: 30px;
+    font-family: "BrandonText";
+    letter-spacing: 2px;
     font-weight: 600;
+    margin-top: 30px;
     justify-content: center;
     text-align: center;
     color: #be6c3c;
 }
 
 h2 {
+    font-family: "BrandonText";
+    letter-spacing: 2px;
+    font-weight: 600;
     color: #be6c3c;
-    font-weight: 500;
 }
 
 .text {
-    font-weight: 400;
+    font-family: "BrandonText";
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #575757;
 }
