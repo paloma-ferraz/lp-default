@@ -19,19 +19,20 @@ body {
 }
 
 #bloco1 {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 #videoorimage{
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 #content1{
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
@@ -39,7 +40,7 @@ body {
     margin-top: 30px;
     font-weight: 600;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     color: #be6c3c;
 }
 
