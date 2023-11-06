@@ -39,9 +39,10 @@ body {
 
 
 #bloco1 {
-    margin-top: 10px;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 #videoorimage{
@@ -51,8 +52,12 @@ body {
     margin-right: 20px;
 }
 
+#foto {
+    border-radius: 10px;
+}
+
 #content1{
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 0px;
 }
 
@@ -62,9 +67,9 @@ body {
     font-weight: bold;
     background-color:#be6c3c;
     justify-content: center;
-    text-align: center;;
+    text-align: center;
     padding: 2px;
-    margin-top: 10px;
+
     font-size: 24px;
 }
 
@@ -83,4 +88,14 @@ body {
     color: #575757;
     font-size: 15px;
     line-height: 24px;
+}
+
+.text2 {
+    font-family: "BrandonText";
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #575757;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
 }
