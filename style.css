@@ -3,11 +3,36 @@ body {
     font-family: Poppins;
 }
 
+.titlebanner {
+    color: #ffffff;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    padding: 175px;
+}
+
 #bannerprincipal {
     justify-content: center;
     background-color: #575757;
     width: auto;
     height: 400px;
+}
+
+#bloco1 {
+    display: flex;
+    justify-content: center;
+}
+
+#videoorimage{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#content1{
+    margin-top: 100px;
+    margin-left: 20px;
 }
 
 .title {
@@ -17,5 +42,5 @@ body {
 }
 
 .text {
-    font-weight: 300;
+    font-weight: 400;
 }
