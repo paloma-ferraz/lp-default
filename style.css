@@ -34,7 +34,7 @@ body {
     justify-content: center;
     text-align: center;
     color: #be6c3c;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 
@@ -68,7 +68,7 @@ body {
     font-size: 24px;
 }
 
-h2 {
+p {
     font-family: "BrandonText";
     letter-spacing: 2px;
     font-weight: 600;
