@@ -26,6 +26,18 @@ body {
     height: 400px;
 }
 
+.title1 {
+    font-family: "BrandonText";
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    color: #be6c3c;
+    font-size: 24px;
+}
+
+
 #bloco1 {
     margin-top: 40px;
     display: flex;
@@ -56,21 +68,12 @@ body {
     font-size: 24px;
 }
 
-.title1 {
-    font-family: "BrandonText";
-    letter-spacing: 2px;
-    font-weight: 600;
-    margin-top: 30px;
-    justify-content: center;
-    text-align: center;
-    color: #be6c3c;
-}
-
 h2 {
     font-family: "BrandonText";
     letter-spacing: 2px;
     font-weight: 600;
     color: #be6c3c;
+    font-size: 22px;
 }
 
 .text {
@@ -78,4 +81,6 @@ h2 {
     letter-spacing: 2px;
     font-weight: 600;
     color: #575757;
+    font-size: 15px;
+    line-height: 24px;
 }
