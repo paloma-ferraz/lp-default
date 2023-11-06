@@ -1,0 +1,21 @@
+body {
+    background-color:#f8f8f8;
+    font-family: Poppins;
+}
+
+#bannerprincipal {
+    justify-content: center;
+    background-color: #575757;
+    width: auto;
+    height: 400px;
+}
+
+.title {
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    font-weight: 300;
+}
