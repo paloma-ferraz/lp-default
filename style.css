@@ -8,7 +8,7 @@ body {
     font-weight: 500;
     justify-content: center;
     text-align: center;
-    padding: 175px;
+    padding: 150px;
 }
 
 #bannerprincipal {
@@ -19,7 +19,7 @@ body {
 }
 
 #bloco1 {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
@@ -32,16 +32,31 @@ body {
 }
 
 #content1{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
 }
 
-.title {
+#n1stick {
+    font-weight: 500;
+    background-color:#be6c3c;
+    justify-content: center;
+    text-align: center;;
+    padding: 2px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.title1 {
     margin-top: 30px;
     font-weight: 600;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     color: #be6c3c;
+}
+
+h2 {
+    color: #be6c3c;
+    font-weight: 500;
 }
 
 .text {
