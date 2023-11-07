@@ -98,6 +98,21 @@ body {
     border-radius: 10px;
 }
 
+#logoadcostexto{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#logo {
+    font-family: "BrandonText";
+    letter-spacing: 2px;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
 #disclaimer {
     font-family: "BrandonText";
     letter-spacing: 2px;
