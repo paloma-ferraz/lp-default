@@ -82,6 +82,18 @@ body {
     font-size: 24px;
 }
 
+#bloco2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#content2{
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
 .title2{
     font-family: "BrandonText";
     letter-spacing: 2px;
@@ -90,6 +102,16 @@ body {
     font-size: 22px;
     padding: 20px;
     background-color: #ffffff;
+}
+
+.title3{
+    font-family: "BrandonText";
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #be6c3c;
+    font-size: 22px;
+    padding: 20px;
+    background-color: #f0dfcd;
 }
 
 .text {
@@ -108,7 +130,35 @@ body {
     letter-spacing: 2px;
     font-weight: 600;
     color: #575757;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 24px;
     text-align: center;
+}
+
+.text3 {
+    font-family: "BrandonText";
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #575757;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #f0dfcd;
+}
+
+a {
+    justify-content: center;
+    font-family: "BrandonText";
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #be6c3c;
+    border-radius: 2px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
