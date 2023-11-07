@@ -4,6 +4,50 @@
         <title> Adcos - LP Defaut </title>
         <link rel="stylesheet" href="style.css" />
 </head>
+
+<style>
+    .container {
+      position: relative;
+      width: 50%;
+    }
+    
+    .image {
+      display:flex;
+      width: 50%;
+      height: auto;
+      border-radius: 10px;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 50%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #222222;
+      border-radius: 10px;
+    }
+    
+    .container:hover .overlay {
+      opacity: 1;
+    }
+    
+    .text {
+      color: #ffffff;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    </style>
     
 <body>
     <div id="bannerprincipal">
@@ -39,7 +83,7 @@
     </div>
 
         <div> 
-            <p class="text"> A ADCOS TEM ORGULHO EM APOIAR O PAD-UFES,</br> 
+            <p class="textdezembro"> A ADCOS TEM ORGULHO EM APOIAR O PAD-UFES,</br> 
                  PROGRAMA DE ASSISTÊNCIA DERMATOLÓGICA E</br> 
                  CIRÚRGICA DA UNIVERSIDADE FEDERAL DO ESPÍRITO</br> 
                  SANTO, PROMOVENDO AÇÕES DE PREVENÇÃO,</br>
@@ -61,12 +105,57 @@
     ALTA COBERTURA E ALTO FATOR DE PROTEÇÃO SOLAR
 </p>
 
-<div id="bloco2">      
-    
-    <div id="videoorimage">
-        <img id="foto"
-        src="images/cores-stick.webp" width="450"  alt="cores-stick"/>
-        </div>
+<div id="bloco2">   
+
+<div id="fotoscores">    
+<div id="fotoscorescima">
+
+    <div class="container">
+            <img src="images/ivory.png" alt="ivory" class="image">
+            <div class="overlay">
+            <div class="texto"> IVORY </div>
+     </div>
+     </div>
+
+     <div class="container">
+        <img src="images/peach.png" alt="peach" class="image">
+        <div class="overlay">
+        <div class="texto"> PEACH </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <img src="images/nude.png" alt="nude" class="image">
+        <div class="overlay">
+        <div class="texto"> NUDE </div>
+    </div>
+    </div>
+</div>
+
+<div id="fotoscoresbaixo">
+
+    <div class="container">
+            <img src="images/beige.png" alt="beige" class="image">
+            <div class="overlay">
+            <div class="texto"> BEIGE </div>
+     </div>
+     </div>
+
+     <div class="container">
+        <img src="images/bronze.png" alt="bronze" class="image">
+        <div class="overlay">
+        <div class="texto"> BRONZE </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <img src="images/pecan.png" alt="pecan" class="image">
+        <div class="overlay">
+        <div class="texto"> PECAN </div>
+    </div>
+    </div>
+</div>
+</div>
 
     <div id="content2">
         <div>
@@ -117,6 +206,7 @@
     </div>
 
 </div>
+
 
 <div id="disclaimer">
     <p style="color: #222222 ;"> *Ação válida de 31/12/2023. Doação limitada ao valor de cento e setenta mil reais. </br>

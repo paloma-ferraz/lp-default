@@ -83,6 +83,28 @@ body {
     font-size: 24px;
 }
 
+#fotoscores {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#fotoscorescima {
+    font-family: "BrandonText";
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#fotoscoresbaixo {
+    font-family: "BrandonText";
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
 #bloco2 {
     display: flex;
     justify-content: center;
@@ -163,7 +185,7 @@ body {
     padding-bottom: 20px;
 }
 
-.text {
+.textdezembro {
     font-family: "BrandonText";
     letter-spacing: 2px;
     font-weight: 600;
