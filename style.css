@@ -85,7 +85,7 @@ body {
 #bloco2 {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -149,7 +149,6 @@ body {
 }
 
 a {
-    justify-content: center;
     font-family: "BrandonText";
     letter-spacing: 2px;
     font-size: 18px;
@@ -161,4 +160,9 @@ a {
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
 }
