@@ -251,7 +251,7 @@ body {
     justify-content: center;
     flex-direction: row;
     width: 90%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #fotoscorescima {
@@ -285,7 +285,6 @@ body {
     justify-content: center;
     flex-direction: row;
     border-radius: 10px;
-    background-color: #f0dfcd;
     margin-bottom: 30px;
     padding: 20px;
 }
@@ -294,8 +293,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     padding: 20px;
+    background-color: #f0dfcd;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #bloco3 {
@@ -384,12 +387,11 @@ body {
 .text3 {
     font-family: "BrandonTextMedium";
     letter-spacing: 2px;
-    text-align: left;
+    text-align: center;
     color: #575757;
     font-size: 15px;
     line-height: 24px;
     padding-top: 10px;
-    padding-left: 15px;
 }
 
 a {
