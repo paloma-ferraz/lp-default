@@ -254,7 +254,7 @@ body {
 }
 
 #fotoscorescima {
-    font-family: "BrandonText";
+    font-family: "BrandonTextBlack";
     color: #575757;
     display: flex;
     justify-content: center;
@@ -264,7 +264,7 @@ body {
 }
 
 #fotoscoresbaixo {
-    font-family: "BrandonText";
+    font-family: "BrandonTextBlack";
     color: #ffffff;
     display: flex;
     justify-content: center;
