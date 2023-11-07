@@ -292,8 +292,9 @@ body {
 
 #beneficios {
     display: flex;
-    justify-content: start;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     padding: 20px;
 }
 
@@ -383,10 +384,12 @@ body {
 .text3 {
     font-family: "BrandonTextMedium";
     letter-spacing: 2px;
-    text-align: center;
+    text-align: left;
     color: #575757;
     font-size: 15px;
     line-height: 24px;
+    padding-top: 10px;
+    padding-left: 15px;
 }
 
 a {
