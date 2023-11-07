@@ -56,8 +56,15 @@ body {
     border-radius: 10px;
 }
 
+#Emdezembro {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    background-color: #f0dfcd;
+}
+
 #content1{
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 0px;
 }
 
@@ -127,9 +134,8 @@ body {
     letter-spacing: 2px;
     font-weight: bold;
     color: #be6c3c;
-    font-size: 22px;
+    font-size: 20px;
     padding: 20px;
-    background-color: #ffffff;
 }
 
 .title3 {
@@ -161,7 +167,6 @@ body {
     font-size: 15px;
     line-height: 24px;
     padding-left: 20px;
-    margin-top: 40px;
 }
 
 .text2 {
@@ -195,7 +200,7 @@ a {
     text-decoration: none;
     color: #ffffff;
     background-color: #be6c3c;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
