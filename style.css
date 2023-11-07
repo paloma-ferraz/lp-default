@@ -249,8 +249,9 @@ body {
 #fotoscores {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 40%;
+    flex-direction: row;
+    width: 90%;
+    margin-bottom: 30px;
 }
 
 #fotoscorescima {
@@ -260,7 +261,6 @@ body {
     justify-content: center;
     text-align: center;
     flex-direction: row;
-    margin-right: 20px;
 }
 
 #fotoscoresbaixo {
@@ -270,33 +270,43 @@ body {
     justify-content: center;
     text-align: center;
     flex-direction: row;
-    margin-right: 20px;
 }
 
 #bloco2 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
 #content2{
-    padding: 20px;
-    background-color: #f0dfcd;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     border-radius: 10px;
+    background-color: #f0dfcd;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+#beneficios {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 20px;
 }
 
 #bloco3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 30px;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
     background-color: #be6c3c;
-    padding-bottom: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
     border-radius: 10px;
 }
 
@@ -334,11 +344,12 @@ body {
 
 .title3 {
     font-family: "BrandonTextBlack";
+    text-align: center;
     letter-spacing: 2px;
     color: #be6c3c;
-    padding-bottom: 20px;
-    font-size: 22px;
-    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 28px;
 }
 
 .title4 {
@@ -372,10 +383,10 @@ body {
 .text3 {
     font-family: "BrandonTextMedium";
     letter-spacing: 2px;
+    text-align: center;
     color: #575757;
     font-size: 15px;
     line-height: 24px;
-    text-align: left;
 }
 
 a {
