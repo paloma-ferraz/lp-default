@@ -21,6 +21,139 @@ body {
     scroll-behavior: smooth;
   }
 
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display:flex;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(images/hover-ivory.png);
+    border-radius: 10px;
+  }
+  
+  .container:hover .overlay1 {
+    opacity: 1;
+  }
+
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(images/hover-peach.png);
+    border-radius: 10px;
+  }
+  
+  .container:hover .overlay2 {
+    opacity: 1;
+  }
+
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(images/hover-nude.png);
+    border-radius: 10px;
+  }
+  
+  .container:hover .overlay3 {
+    opacity: 1;
+  }
+
+  .overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(images/hover-beige.png);
+    border-radius: 10px;
+  }
+  
+  .container:hover .overlay4 {
+    opacity: 1;
+  }
+
+  .overlay5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(images/hover-bronze.png);
+    border-radius: 10px;
+  }
+  
+  .container:hover .overlay5 {
+    opacity: 1;
+  }
+
+  .overlay6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(images/hover-pecan.png);
+    border-radius: 10px;
+  }
+  
+  .container:hover .overlay6 {
+    opacity: 1;
+  }
+  
+  .texto {
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
 #bannerprincipal {
     justify-content: center;
     width: auto;
@@ -93,6 +226,7 @@ body {
     font-family: "BrandonText";
     display: flex;
     justify-content: center;
+    text-align: center;
     flex-direction: row;
     margin-bottom: 20px;
 }
@@ -101,6 +235,7 @@ body {
     font-family: "BrandonText";
     display: flex;
     justify-content: center;
+    text-align: center;
     flex-direction: row;
     margin-bottom: 20px;
 }
