@@ -15,6 +15,87 @@ html {
   scroll-behavior: smooth;
 }
 
+/* mobile */
+@media only screen and (max-width: 500px) {
+    body {
+        .title1 {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+        #foto {
+            width: 50%;
+            justify-content: center;
+        }
+        #bloco1 {   
+            flex-direction: column;
+            justify-content: center;
+        }
+        #content1 {
+            justify-content: center;
+            margin-top: 20px;
+        }
+        #Emdezembro {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #imagemdezembro {
+            width: 50%;
+        }
+        .title2 {
+            font-size: 16px;
+        }
+        .textdezembro {
+            font-size: 12px;
+        }
+        #n1stick {
+            font-size: 16px;
+        }
+        #content2 {
+            flex-direction: column;
+        }
+        #beneficios {
+            flex-direction: row;
+        }
+        .text3{
+            font-size: 12px;
+            text-align: left;
+            padding-left: 10px;
+            justify-items: center;
+            align-items: center;
+        }
+        .text2 {
+            font-size: 15px;
+        }
+        #fotoscores {
+            flex-direction: column;
+        }
+        #fotoscorestextobranco.image,.overlay4,.overlay5,.overlay6{
+            display: none;
+        }
+        #fotoscorestextocinza.image,.overlay1,.overlay2,.overlay3{
+            display: none;
+        }
+        .title3 {
+            font-size: 16px;
+        }
+        .title4{
+            font-size: 22px;
+        }
+        #bloco3 {
+            width: 50%;
+        }
+        .videomobile {
+            width: 360px;
+            height: 240px;
+        }
+        #logo {
+            font-size: 12px;
+        }
+    }
+}
+/* mobile */
+
 /* fonte e seus pesos */
 @font-face {
     font-family: "BrandonTextBold";
@@ -207,13 +288,6 @@ html {
     align-items: center;
 }
 
-#image{
-    margin-top: 0px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 #foto {
     border-radius: 10px;
 }
@@ -223,6 +297,7 @@ html {
     flex-direction:row;
     align-items: center;
     background-color: #f0dfcd;
+    margin-left: 20px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
