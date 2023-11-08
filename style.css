@@ -100,11 +100,13 @@ html {
             margin-left: 15px;
             margin-right: 15px;
         }
+        #bloco3 {
+            border-radius: 0px;
+            padding: 0px;
+        }
         .title4{
             font-size: 22px;
             text-align: center;
-            margin-left: 15px;
-            margin-right: 15px;
         }
         .videomobile {
             width: 360px;
@@ -470,11 +472,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px;
-    margin-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background-color: #be6c3c;
     border-radius: 10px;
 }
@@ -494,6 +494,7 @@ a {
     align-items: center;
     justify-content: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #logo {
