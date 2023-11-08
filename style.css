@@ -30,29 +30,41 @@ html {
         #foto {
             width: 50%;
             justify-content: center;
+            align-items: center;
         }
         #bloco1 {   
             flex-direction: column;
             justify-content: center;
+            align-items: center;
+            justify-items: center;
         }
         #content1 {
             justify-content: center;
+            align-items: center;
+            justify-items: center;
             margin-top: 20px;
         }
         #Emdezembro {
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            justify-items: center;
             padding-left: 0px;
             padding-right: 0px;
             margin-left: 15px;
             margin-right: 15px;
         }
         #imagemdezembro {
+            display: flex;
+            justify-content: center;
             width: 50%;
+            padding: 0px;
+
         }
         .title2 {
             font-size: 16px;
+            text-align: center;
+            text-wrap: nowrap;
         }
         .textdezembro {
             font-size: 12px;
@@ -120,6 +132,10 @@ html {
         }
         #logo {
             font-size: 12px;
+        }
+        .button {
+            margin-top: 15px;
+            margin-bottom: 15px;
         }
     }
 }
@@ -354,7 +370,7 @@ html {
   color: #575757;
   font-size: 15px;
   line-height: 24px;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-top: 30px;
 }
 
@@ -486,7 +502,7 @@ a {
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 75%;
+    width: 60%;
     background-color: #be6c3c;
     border-radius: 10px;
 }
