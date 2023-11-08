@@ -21,6 +21,8 @@ html {
         .title1 {
             font-size: 22px;
             margin-top: 20px;
+            margin-left: 15px;
+            margin-right: 15px;
         }
         #foto {
             width: 50%;
@@ -38,6 +40,10 @@ html {
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 15px;
+            margin-right: 15px;
         }
         #imagemdezembro {
             width: 50%;
@@ -47,25 +53,38 @@ html {
         }
         .textdezembro {
             font-size: 12px;
+            text-align: center;
+            text-wrap: nowrap;
+            padding-left: 0px;
+            margin-left: 15px;
+            margin-right: 15px;
         }
         #n1stick {
             font-size: 16px;
         }
         #content2 {
             flex-direction: column;
+            justify-content: center;
+            margin-bottom: 0px;
         }
         #beneficios {
             flex-direction: row;
+            margin-bottom: 10px;
+            justify-content: left;
         }
         .text3{
             font-size: 12px;
             text-align: left;
             padding-left: 10px;
+            padding-top: 0px;
             justify-items: center;
             align-items: center;
+            text-wrap: nowrap;
         }
         .text2 {
             font-size: 15px;
+            margin-left: 15px;
+            margin-right: 15px;
         }
         #fotoscores {
             flex-direction: column;
@@ -78,16 +97,21 @@ html {
         }
         .title3 {
             font-size: 16px;
+            margin-left: 15px;
+            margin-right: 15px;
         }
         .title4{
             font-size: 22px;
-        }
-        #bloco3 {
-            width: 50%;
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
         }
         .videomobile {
             width: 360px;
             height: 240px;
+        }
+        #logoadcos{
+            width:50px;
         }
         #logo {
             font-size: 12px;
@@ -402,7 +426,7 @@ html {
 
 #beneficios {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
   padding: 20px;
