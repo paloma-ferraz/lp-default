@@ -65,6 +65,7 @@ html {
             font-size: 16px;
             text-align: center;
             text-wrap: nowrap;
+            padding-top: 0px;
         }
         .textdezembro {
             font-size: 12px;
