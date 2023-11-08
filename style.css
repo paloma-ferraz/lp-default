@@ -3,6 +3,19 @@ body {
     font-family: Poppins;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* fonte e seus pesos */
 @font-face {
     font-family: "BrandonTextBold";
     src: url("fonts/BrandonText-Bold.otf" ) format("opentype");
@@ -38,34 +51,23 @@ body {
     src: url("fonts/BrandonText-Thin.otf" ) format("opentype");
 
 }
+/* fonte e seus pesos */
 
-
-* {
-    padding: 0;
-    margin: 0;
-    vertical-align: baseline;
-    list-style: none;
-    border: 0;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-
-  .container {
+/* hover fotos cores */
+.container {
     position: relative;
     width: 100%;
     margin: 10px;
-  }
+}
   
-  .image {
+.image {
     display:flex;
     width: 100%;
     height: auto;
     border-radius: 10px;
-  }
+}
   
-  .overlay1 {
+.overlay1 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -77,13 +79,13 @@ body {
     transition: .5s ease;
     background-image: url(images/hover-ivory.png);
     border-radius: 10px;
-  }
+}
   
-  .container:hover .overlay1 {
+.container:hover .overlay1 {
     opacity: 1;
-  }
+}
 
-  .overlay2 {
+.overlay2 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -95,13 +97,13 @@ body {
     transition: .5s ease;
     background-image: url(images/hover-peach.png);
     border-radius: 10px;
-  }
+}
   
-  .container:hover .overlay2 {
+.container:hover .overlay2 {
     opacity: 1;
-  }
+}
 
-  .overlay3 {
+.overlay3 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -113,13 +115,13 @@ body {
     transition: .5s ease;
     background-image: url(images/hover-nude.png);
     border-radius: 10px;
-  }
+}
   
-  .container:hover .overlay3 {
+.container:hover .overlay3 {
     opacity: 1;
-  }
+}
 
-  .overlay4 {
+.overlay4 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -131,13 +133,13 @@ body {
     transition: .5s ease;
     background-image: url(images/hover-beige.png);
     border-radius: 10px;
-  }
+}
   
-  .container:hover .overlay4 {
+.container:hover .overlay4 {
     opacity: 1;
-  }
+}
 
-  .overlay5 {
+.overlay5 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -149,13 +151,13 @@ body {
     transition: .5s ease;
     background-image: url(images/hover-bronze.png);
     border-radius: 10px;
-  }
+}
   
-  .container:hover .overlay5 {
+.container:hover .overlay5 {
     opacity: 1;
-  }
+}
 
-  .overlay6 {
+.overlay6 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -167,13 +169,13 @@ body {
     transition: .5s ease;
     background-image: url(images/hover-pecan.png);
     border-radius: 10px;
-  }
+}
   
-  .container:hover .overlay6 {
+.container:hover .overlay6 {
     opacity: 1;
-  }
+}
   
-  .texto {
+.texto {
     font-size: 20px;
     letter-spacing: 2px;
     font-size: bold;
@@ -184,13 +186,14 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
+/* hover fotos cores */
 
+/* primeira dobra */
 #bannerprincipal {
     justify-content: center;
     width: auto;
 }
-
 .title1 {
     font-family: "BrandonTextBlack";
     letter-spacing: 2px;
@@ -201,7 +204,6 @@ body {
     font-size: 32px;
 }
 
-
 #bloco1 {
     display: flex;
     justify-content: center;
@@ -210,7 +212,7 @@ body {
     align-items: center;
 }
 
-#videoorimage{
+#image{
     margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -231,6 +233,24 @@ body {
     border-radius: 10px;
 }
 
+.title2{
+  font-family: "BrandonTextBlack";
+  letter-spacing: 2px;
+  color: #be6c3c;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.textdezembro {
+  font-family: "BrandonTextMedium";
+  letter-spacing: 2px;
+  color: #575757;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
 #content1{
     margin-top: 0px;
     margin-left: 0px;
@@ -245,6 +265,25 @@ body {
     padding: 15px;
     font-size: 24px;
 }
+/* primeira dobra */
+
+/* segunda dobra */
+#bloco2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.text2 {
+  font-family: "BrandonTextMedium";
+  letter-spacing: 2px;
+  color: #575757;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
 
 #fotoscores {
     display: flex;
@@ -254,7 +293,7 @@ body {
     margin-bottom: 20px;
 }
 
-#fotoscorescima {
+#fotoscorestextocinza {
     font-family: "BrandonTextBlack";
     color: #575757;
     display: flex;
@@ -263,7 +302,7 @@ body {
     flex-direction: row;
 }
 
-#fotoscoresbaixo {
+#fotoscorestextobranco {
     font-family: "BrandonTextBlack";
     color: #ffffff;
     display: flex;
@@ -272,35 +311,67 @@ body {
     flex-direction: row;
 }
 
-#bloco2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
+.title3 {
+  font-family: "BrandonTextBlack";
+  text-align: center;
+  letter-spacing: 2px;
+  color: #be6c3c;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  font-size: 22px;
 }
 
 #content2{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
 }
 
 #beneficios {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    background-color: #f0dfcd;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f0dfcd;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
+.text3 {
+  font-family: "BrandonTextMedium";
+  letter-spacing: 2px;
+  text-align: center;
+  color: #575757;
+  font-size: 15px;
+  line-height: 24px;
+  padding-top: 10px;
+}
+
+a {
+  font-family: "BrandonTextBold";
+  letter-spacing: 2px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #be6c3c;
+  border-radius: 4px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+/* segunda dobra */
+
+/* bloco vídeo */
 #bloco3 {
     display: flex;
     flex-direction: column;
@@ -312,6 +383,15 @@ body {
     padding-bottom: 20px;
     background-color: #be6c3c;
     border-radius: 10px;
+}
+
+.title4 {
+  font-family: "BrandonTextBlack";
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-size: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #logoadcostexto{
@@ -328,7 +408,9 @@ body {
     color: #ffffff;
     padding-left: 20px;
 }
+/* bloco vídeo */
 
+/* disclaimer */
 #disclaimer {
     font-family: "BrandonTextRegular";
     letter-spacing: 2px;
@@ -337,77 +419,4 @@ body {
     font-size: 10px;
     padding: 15px;
 }
-
-.title2{
-    font-family: "BrandonTextBlack";
-    letter-spacing: 2px;
-    color: #be6c3c;
-    font-size: 20px;
-    padding: 20px;
-}
-
-.title3 {
-    font-family: "BrandonTextBlack";
-    text-align: center;
-    letter-spacing: 2px;
-    color: #be6c3c;
-    padding-top: 0px;
-    padding-bottom: 10px;
-    font-size: 22px;
-}
-
-.title4 {
-    font-family: "BrandonTextBlack";
-    letter-spacing: 2px;
-    color: #ffffff;
-    font-size: 32px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.textdezembro {
-    font-family: "BrandonTextMedium";
-    letter-spacing: 2px;
-    color: #575757;
-    font-size: 15px;
-    line-height: 24px;
-    padding-left: 20px;
-    padding-top: 30px;
-}
-
-.text2 {
-    font-family: "BrandonTextMedium";
-    letter-spacing: 2px;
-    color: #575757;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-}
-
-.text3 {
-    font-family: "BrandonTextMedium";
-    letter-spacing: 2px;
-    text-align: center;
-    color: #575757;
-    font-size: 15px;
-    line-height: 24px;
-    padding-top: 10px;
-}
-
-a {
-    font-family: "BrandonTextBold";
-    letter-spacing: 2px;
-    font-size: 18px;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #be6c3c;
-    border-radius: 4px;
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-}
+/* disclaimer */
